@@ -68,7 +68,7 @@ const CustomContentList: React.FC<CustomListProps> = ({ initialList }) => {
 
   const fetchData = async (pageNumber: number) => {
     try {
-      const response = await fetch(`http://local.api.realtime.com.br/api/v1/addressWeather/list${page ? `?page=${pageNumber}` : ``}`);
+      const response = await fetch(`http://local.api.forecast.com.br/api/v1/addressWeather/list${page ? `?page=${pageNumber}` : ``}`);
       const data = await response.json();
       setList(data);
     } catch (error) {
