@@ -26,8 +26,8 @@ Se o Node.js ainda não estiver instalado, você pode baixá-lo [aqui](https://n
 Primeiramente, clone o repositório do projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/fiport/app-forecast.git
+cd app-forecast
 ```
 
 ### 3️⃣ Instalando Dependências
