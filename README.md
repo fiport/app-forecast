@@ -1,46 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌟 React Frontend Setup Guide
 
-## Available Scripts
+Bem-vindo ao projeto **React Frontend**! Este guia irá ajudá-lo a configurar e executar o ambiente de desenvolvimento da sua aplicação. Siga os passos abaixo para configurar o ambiente e começar a trabalhar rapidamente no seu projeto.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Node.js**: Versão 18.20.2
+- **NPM**: Gerenciador de pacotes usado para instalar dependências.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Como Configurar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ Pré-requisitos
 
-### `npm run build`
+Antes de tudo, certifique-se de que você tenha a versão correta do Node.js instalada. Esta aplicação utiliza o **Node.js 18.20.2**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Se o Node.js ainda não estiver instalado, você pode baixá-lo [aqui](https://nodejs.org/en/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2️⃣ Clonando o Repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Primeiramente, clone o repositório do projeto:
 
-### `npm run eject`
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3️⃣ Instalando Dependências
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois de clonar o repositório, instale as dependências necessárias utilizando o NPM:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Este comando irá instalar todas as dependências listadas no `package.json`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Rodando o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Após a instalação das dependências, você pode rodar o projeto localmente com o seguinte comando:
+
+```bash
+npm start
+```
+
+Isso irá iniciar o servidor de desenvolvimento e a aplicação estará disponível em:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+Esse comando irá executar todos os testes e exibir o resultado no terminal.
+
+---
+
+## 📦 Build da Aplicação
+
+Para gerar uma versão otimizada da aplicação para produção, use o comando:
+
+```bash
+npm run build
+```
+
+Esse comando irá criar a pasta `build` com todos os arquivos otimizados e prontos para serem servidos em um servidor de produção.
+
+---
+
+## ⚙️ Scripts Disponíveis
+
+Aqui estão alguns scripts úteis que podem ser utilizados durante o desenvolvimento:
+
+- **npm start**: Inicia o servidor de desenvolvimento.
+- **npm run build**: Cria uma build de produção.
+
+---
+
+## 📝 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
+
+---
+
+### 💻 Feito por Filipe Port
